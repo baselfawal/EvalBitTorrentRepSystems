@@ -1,0 +1,48 @@
+-----------------------------------------------------------
+BitTorrent for the Peersim Simulator
+
+https://opensvn.csie.org/bitpeer/
+
+Fabrizio Frioli, Michele Pedrolli
+{fabrizio.frioli, michele.pedrolli} <AT> studenti.unitn.it
+-----------------------------------------------------------
+
+BitPeer is a BitTorrent module for Peersim,
+a P2P simulation environment.
+
+An example configuration file (config-BitTorrent.cfg)
+can be found in the root directory.
+
+A detailed documentation can be found in manual.pdf.
+Please refer to the javadoc documentation for more details.
+
+------------------------------------
+Download
+------------------------------------
+
+The latest version of BitPeer can be downloaded
+from the SVN repository hosted by csie.org.
+
+To checkout the last version, invoke:
+
+	svn co https://opensvn.csie.org/bitpeer/
+
+------------------------------------
+Makefile
+------------------------------------
+
+To compile the sources, invoke:
+
+  make
+
+To compile the API documentation, invoke:
+
+  make doc
+
+To run the code, invoke:
+
+  make run
+
+To run all the previous command in this order, invoke:
+
+  make all
